@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Grigio chiaro per lo sfondo */
+    color: #333;
+}
+
+header {
+    background-color: #00aaff; /* Blu brillante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombra per il header */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white; /* Colore bianco per il titolo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Testo bianco nei link */
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #ffaa00; /* Arancione vivace per i link */
+}
+
+nav ul li a:hover {
+    background-color: #ff5500; /* Rosso-arancione vivace al passaggio del mouse */
+    color: white;
+}
+
+main {
+    padding: 30px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombra evidente per dare profondità */
+    border-radius: 10px; /* Arrotondamento degli angoli */
+}
+
+h2 {
+    color: #ff5500; /* Colore del titolo in rosso-arancione brillante */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+footer {
+    background-color: #00aaff; /* Stesso blu brillante del header */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Ombra sopra il footer */
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ombra per il form */
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #ff5500; /* Rosso-arancione per i testi del form */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ffaa00; /* Bordo arancione vivo */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff5e6; /* Sfondo leggermente aranciato */
+}
+
+form input[type="submit"] {
+    background-color: #ff5500; /* Pulsante arancione vivo */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffaa00; /* Colore arancione chiaro al passaggio del mouse */
+}
+
